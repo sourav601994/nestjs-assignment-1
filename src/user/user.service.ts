@@ -13,7 +13,6 @@ export class UserService {
   ) {}
 
   getUsers(search?: string): Promise<User[]> {
-    console.log(search);
     return this.usersRepository.getUsers(search);
   }
 
