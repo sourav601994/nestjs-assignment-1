@@ -1,0 +1,5 @@
+export enum IdType {
+  AADHAR = 'AADHAR',
+  ELECTIONID = 'ELECTIONID',
+  PASSPORT = 'PASSPORT',
+}
